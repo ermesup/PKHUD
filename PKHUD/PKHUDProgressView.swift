@@ -21,10 +21,10 @@ public class PKHUDProgressView: PKHUDSquareBaseView, PKHUDAnimating {
         super.init(coder: aDecoder)
     }
         
-    func startAnimation() {
+    public func startAnimation() {
         imageView.layer.addAnimation(PKHUDAnimation.discreteRotation, forKey: "progressAnimation")
     }
     
-    func stopAnimation() {
+    public func stopAnimation() {
     }
 }
